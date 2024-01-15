@@ -1,0 +1,22 @@
+.ttlForm {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.lblForm {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btnEnviar {
+    background-color: #012960;
+    color: white;
+    border-radius: 15px;
+    padding: 1% 2.5%;
+    transition: 0.5s all;
+    border: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btnEnviar:hover {
+    background-color: rgb(66, 135, 137);
+    color: black;
+}
