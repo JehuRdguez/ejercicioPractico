@@ -53,12 +53,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
 
-    
-
-    form.addEventListener('paste', function (event) {
-      event.preventDefault();
-    });
-
     function sanitizeHTML(input) {
       var doc = new DOMParser().parseFromString(input, 'text/html');
       return doc.body.textContent || "";
